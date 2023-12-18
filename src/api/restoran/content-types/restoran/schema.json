@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restorans",
+  "info": {
+    "singularName": "restoran",
+    "pluralName": "restorans",
+    "displayName": "Restoran",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
